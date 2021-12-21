@@ -5,7 +5,7 @@ body{margin: 0px}
 
 .div1{background-color: white;grid-column:1/1 ;padding: 2em;z-index: 5}
 .div2{background-color: white;padding: 2em;z-index: 6}
-.div3{line-height: 1.5em; grid-row: 2/2;padding: 2em; }
-.div4{line-height: 1.5em; grid-row: 2/2;padding: 2em; overflow-y:scroll;}
+.div3{line-height: 1.5em; grid-row: 2/2;padding: 2em;padding-top: 4em; }
+.div4{line-height: 1.5em; grid-row: 2/2;padding: 2em; overflow-y:scroll;padding-top: 4em;}
 
 ::-webkit-scrollbar {display: none;}
