@@ -1,7 +1,7 @@
 @font-face {src:url('/ggallery/MonumentGrotesk-Regular.otf');font-family: 'ggallery';font-weight: lighter;}
 html{font-family: 'ggallery';font-size: 1em;overflow: hidden;}
 body{margin: 0px}
-.container{display: inline-grid; grid-template-columns:1fr 4fr 2fr; grid-template-rows: 2em 40em;}
+.container{display: inline-grid; grid-template-columns:1fr 4fr 2fr; grid-template-rows: 10vh 90vh;}
 
 .div1{background-color: white;grid-column:1/1 ;padding: 2em;z-index: 5}
 .div2{background-color: white;padding: 2em;z-index: 6}
