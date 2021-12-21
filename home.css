@@ -11,7 +11,7 @@ body{margin: 0px}
 
 
 
-@media all and (max-width: 428px) { 
+@media all and (max-width: 800px) { 
      html{font-family: 'ggallery';font-size: 1em; overflow-y:scroll;}
      .container{display: grid ; grid-template-columns:1fr; grid-template-rows: auto auto auto auto; }
   .div1{background-color: white; grid-column:1/1;grid-row: 1/1 ;padding: 2em; z-index: 3;}
