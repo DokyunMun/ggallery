@@ -10,7 +10,7 @@ a {
 
 
 body{margin: 0px}
-.container1{display:grid; grid-template-columns: 0.9fr 1.7fr 2.8fr 0.7fr; grid-template-rows: 10vh;z-index: 2;}
+.container1{display:grid; grid-template-columns: 0.9fr 1.7fr 2.8fr 0.7fr; grid-template-rows: 10vh;z-index: 2;background-color: white;}
 .div1{background-color: white;grid-column:1/1;grid-row:1/1;padding:1.7rem;}
 .div2{background-color: white;grid-column:2/2;grid-row:1/1;padding:1.7rem;}
 .div3{background-color: white;grid-column:4/4;grid-row:1/1;padding:1.7rem;text-align: right;}
