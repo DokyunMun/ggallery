@@ -37,4 +37,10 @@ textarea {
     .div6{grid-column: 1/1; grid-row:3/3; padding: 0em; padding-top:2.5rem; padding-bottom:2.5rem;}
 
 
-::-webkit-scrollbar {display: none;}
+.box {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.box::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
