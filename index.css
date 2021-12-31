@@ -6,10 +6,7 @@ a {
   text-decoration: none; 
 }
 
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-    ::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera*/
+::-webkit-scrollbar {display: none;}
 
 
 body{margin: 0px}
