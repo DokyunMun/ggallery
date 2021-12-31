@@ -23,6 +23,14 @@ textarea {
   resize: none;
 }
 
+.box {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.box::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
 @media all and (max-width: 800px) {
      html{font-family: 'ggallery';font-size: 1em; overflow-y:scroll;}
      .container2{display: grid ; grid-template-columns:1fr 0.5fr; grid-template-rows:auto auto auto auto; overflow-y:visible;}
@@ -37,10 +45,3 @@ textarea {
     .div6{grid-column: 1/1; grid-row:3/3; padding: 0em; padding-top:2.5rem; padding-bottom:2.5rem;}
 
 
-.box {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-}
-.box::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera*/
-}
