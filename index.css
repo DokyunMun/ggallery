@@ -5,6 +5,13 @@ a {
   color: rgb(0, 0, 0);
   text-decoration: none; 
 }
+
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    ::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+
+
 body{margin: 0px}
 .container1{display:grid; grid-template-columns: 0.9fr 1.7fr 2.8fr 0.7fr; grid-template-rows: 10vh;z-index: 2;}
 .div1{background-color: white;grid-column:1/1;grid-row:1/1;padding:1.7rem;}
@@ -21,14 +28,6 @@ body{margin: 0px}
 
 textarea {
   resize: none;
-}
-
-.box {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-}
-.box::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera*/
 }
 
 @media all and (max-width: 800px) {
