@@ -6,7 +6,7 @@ a {
   text-decoration: none; 
 }
 
-::-webkit-scrollbar {display: none;}
+
 
 
 body{margin: 0px}
@@ -19,13 +19,8 @@ body{margin: 0px}
 .div4{background-color: white;grid-column:1/1;grid-row:1/1;padding:1.7rem;overflow-y:scroll;}
 .div5{background-color: white;grid-column:2/2;grid-row:1/1;padding:1.7rem;overflow-y:scroll;}
 .div6{background-color: white;grid-column:3/3;grid-row:1/1;padding:1.7rem;overflow-y:scroll;}
-----------------------
 
-
-
-textarea {
-  resize: none;
-}
+::-webkit-scrollbar {display: none;}
 
 @media all and (max-width: 800px) {
      html{font-family: 'ggallery';font-size: 1em; overflow-y:scroll;}
