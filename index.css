@@ -23,12 +23,8 @@ body{margin: 0px}
 ::-webkit-scrollbar {display: none;}
 
 
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media all and (max-width: 812px)) {
      html{font-family: 'ggallery';font-size: 1em; overflow-y:scroll;}
      .container2{display: grid ; grid-template-columns:1fr 0.5fr; grid-template-rows:auto auto auto auto; overflow-y:visible;}
   .container1{position: sticky; top:0; display: grid; grid-template-columns: 1fr; grid-template-rows:auto auto auto auto; z-index:9; padding-left:1.2rem; padding-right:1.2rem; }
