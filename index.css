@@ -1,4 +1,6 @@
-@font-face {src:url(MonumentGrotesk-Regular.otf);font-family: 'ggallery'}
+@font-face {src:url(MonumentGrotesk-Regular.otf);}
+@font-face {src:url(MonumentGrotesk-Italic.otf); font-style: italic;}
+
 html{font-family: 'ggallery';font-size: 1em; overflow: hidden;}
 html{line-height: 1.55em;}
 a {
